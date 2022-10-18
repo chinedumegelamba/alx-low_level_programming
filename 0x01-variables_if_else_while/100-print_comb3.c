@@ -17,7 +17,7 @@ int main(void)
 			{
 				putchar(tens);
 				putchar(ones);
-				if (!((ones == '9' && == '8')))/*adds comma and space*/
+				if (!(ones == '9' && == '8'))/*adds comma and space*/
 				{
 					putchar(',');
 					putchar(' ');
@@ -25,8 +25,6 @@ int main(void)
 			}
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
