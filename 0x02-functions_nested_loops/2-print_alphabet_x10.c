@@ -2,15 +2,10 @@
 
 /**
  * print_alphabet_10 - function to print abc 10 times
- *
- * Return: 0 success
  */
 
 void print_alphabet_x10(void)
 {
-	print_alphabet_x10("with\n");
-	return (0);
-
 	int c;
 	int i;
 
