@@ -2,21 +2,18 @@
 
 /**
  * print_alphabet_10 - function to print abc 10 times
- *
- * Description: 'the program's description'
- *
- * Return: Always 0 (Success)
  */
+
 void print_alphabet_x10(void)
 {
-	int c = 0;
-	int i;
+	int count = 0;
+	char i;
 
-	for (i = 0; i <= 9; i++)
+	while (count++ <= 9)
 	{
-		for (c = 'a'; c <= 'z'; c++)
+		for (i = 'a'; i <= 'z'; i++)
 		{
-			_putchar(c);
+			_putchar(i);
 		}
 		_putchar('\n');
 	}
