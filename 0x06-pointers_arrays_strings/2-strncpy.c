@@ -2,7 +2,7 @@
 
 /**
  * _strncpy - Copies at most an inputed number
- * 		of bytes from src into dest.
+ * of bytes from src into dest.
  * @dest: The buffer storing the string copy.
  * @src: The source string.
  * @n: The maximum number of bytes to be copied from src.

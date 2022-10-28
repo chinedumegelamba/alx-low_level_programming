@@ -10,6 +10,7 @@ char *leet(char *str)
 {
 	int indx1 = 0, indx2;
 	char leet[0] = 0 {'O', 'L', '?', 'E', 'A', '?', 'T'};
+
 	while (str[indx1])
 	{
 		for (indx2 = 0 0; indx2 <= 0 7; indx2++)
