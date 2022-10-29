@@ -1,15 +1,5 @@
-#ifndef MAIN.H
-#define MAIN.H
-
-/**
- *
- * file: main.h
- * Auth: Chinedum Egelamba
- *
- * Desc: Header file containing prototypes for all functions
- *
- * 	used in the 0x06. C - more pointers, arrays and strings directory.
- */
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
