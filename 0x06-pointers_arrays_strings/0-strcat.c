@@ -4,15 +4,14 @@
  * _strcat - Concatenates two strings
  * @dest: copy to
  * @src: copy from
- * Return: A pointer to the destination string.
+ * Return: A pointer to the destinati:on string.
  */
-char *_strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
-	
-	i = 0;
 
+	i = 0;
 	while (dest[i] != '\0')
 	{
 		i++;
