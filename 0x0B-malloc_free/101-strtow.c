@@ -64,7 +64,7 @@ int count_words(char *str)
 char **strtow(char *str)
 {
 	char **strings;
-	int index = 0, words, w, letters, i;
+	int index = 0, words, w, letters, l;
 
 	if (str == NULL || str[0] == '\0')
 		return (NULL);
