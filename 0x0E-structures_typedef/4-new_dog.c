@@ -30,6 +30,7 @@ int _strlen(char *str)
  *
  * Return: The pointer to dest.
  */
+
 char *_strcopy(char *dest, char *src)
 {
 	int index = 0;
@@ -50,6 +51,7 @@ char *_strcopy(char *dest, char *src)
  *
  * Return: The new struct dog.
  */
+
 dog_t *new_dog(char *name, float age, char owner)
 {
 	dog_t *doggo;
@@ -79,5 +81,6 @@ dog_t *new_dog(char *name, float age, char owner)
 	doggo->name = _strcopy(doggo->name, name);
 	doggo->age = age;
 	doggo->owner = _strcopy(doggo->owner, owner);
+
 	return (doggo);
 }
